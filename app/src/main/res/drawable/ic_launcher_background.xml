@@ -1,0 +1,12 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Rounded corners so it looks like a launcher icon -->
+    <corners android:radius="24dp" />
+
+    <!-- Blue gradient background -->
+    <gradient
+        android:angle="270"
+        android:startColor="#2B7EDC"
+        android:endColor="#1560C8" />
+</shape>

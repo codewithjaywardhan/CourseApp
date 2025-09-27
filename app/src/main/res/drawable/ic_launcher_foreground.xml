@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+  <group android:scaleX="0.68"
+      android:scaleY="0.68"
+      android:translateX="17.28"
+      android:translateY="17.28">
+
+      <!-- Left page -->
+      <path
+          android:fillColor="#FFFFFF"
+          android:pathData="M18,28 C34,24 50,24 54,28 V80 H18 Z" />
+
+      <!-- Right page -->
+      <path
+          android:fillColor="#FFFFFF"
+          android:pathData="M54,28 C58,24 74,24 90,28 V80 H54 Z" />
+
+      <!-- Book spine (center line) -->
+      <path
+          android:strokeColor="#1560C8"
+          android:strokeWidth="2"
+          android:pathData="M54,28 V80" />
+
+      <!-- Play button on right page -->
+      <path
+          android:fillColor="#1560C8"
+          android:pathData="M66,44 L82,54 L66,64 Z" />
+  </group>
+</vector>
